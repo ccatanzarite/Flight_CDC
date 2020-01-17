@@ -4,9 +4,9 @@ namespace Flight_CDC
 {
     public class City
     {
-        private sealed String name;
-        private sealed double latitude;
-        private sealed double longitude;
+        private readonly String name;
+        private readonly double latitude;
+        private readonly double longitude;
 
         private City()
         {
